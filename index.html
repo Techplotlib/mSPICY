@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mSPICY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2" href="#"><i class="fas fa-hamburger"></i>mSpicy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#banner"><i
+                                class="fas fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service"><i class="fas fa-clone"></i>Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team"><i class="fas fa-users"></i>Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#user"><i class="fab fa-angellist"></i>Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#contact"><i class="fas fa-mobile"></i>Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+
+                    <button class="btn  bg-danger fs-5" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <section>
+        <div id="banner">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="Images\kool.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="Images\dob.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images\loop.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+    <!-- CARDS -->
+    <section>
+        <div class="container " id="service">
+            <div id="features">
+                <div class="title-style text-center">
+                    <h1>Best and <span class=" text-danger">Healthy</span></h1>
+                </div>
+
+            </div>
+            <div id="main">
+                <div class="row">
+                    <div class="col-md-3" data-aos="flip-left">
+                        <div class="card mb-5" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="images\menu5.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="flip-left">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="images\menu6.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="flip-left">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="images\menu5.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="flip-left">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="images\insta-4.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-3" data-aos="flip-right">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="images\insta-5.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="flip-right">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="images\insta-3.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="flip-right">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="images\insta-6.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="flip-right">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="images\menu5.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to
+                                            additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="team" class="text-center">
+            <h1 class="heading">Our Expert <span class="text-primary">Team</span></h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3" id="info-1" data-aos="flip-right">
+                        <img src="Images\user1.jpg">
+                        <div class="team-info">
+                            <h5>Alex Carry</h5>
+                            <h6>Founder</h6>
+                            <p>@carryalex.com<i class="fab fa-twitter"></i></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" id="info-3" data-aos="flip-right">
+                        <img src="Images\user2.jpg">
+                        <div class="team-info">
+                            <h5>Tim Cook</h5>
+                            <h6>Head Cook</h6>
+                            <p>@cooktim.com<i class="fab  fa-twitter"></i></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3" id="info-3" data-aos="flip-right">
+                        <img src="Images\user3.jpg">
+                        <div class="team-info">
+                            <h5>Kelly James</h5>
+                            <h6>Product Manager</h6>
+                            <p>@kellyjames120.com<i class="fab fa-twitter"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- USER-REVIEWS -->
+    <!-- User-reviews -->
+    <section id="user" class="text-center " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <h1 class="heading">Customer's <span class="text-primary">Reviews</span></h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="user-review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque error labore quasi dolor!
+                            Earum placeat animi, repellat maiores dolor reiciendis minima iste facilis voluptate quas
+                            autem assumenda quisquam rerum mollitia est aliquid impedit eum ab quod quo cum aperiam
+                            commodi?</p>
+                    </div>
+                    <img src="Images\user1.jpg">
+                </div>
+                <div class="col-md-4">
+                    <div class="user-review">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime corrupti,
+                            minus illum facere dolore voluptatum dolorem delectus impedit ratione natus excepturi hic
+                            nisi
+                            dignissimos exercitationem! Eius molestias velit eveniet magnam possimus suscipit, odio
+                            neque
+                            corrupti qui itaque impedit! Neque, provident!</p>
+                    </div>
+                    <img src="Images\user2.jpg">
+                </div>
+                <div class="col-md-4">
+                    <div class="user-review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, atque
+                            asperiores ipsum neque deleniti eaque, libero accusamus doloremque incidunt debitis deserunt
+                            dolore, vitae quas doloribus labore quisquam praesentium? Commodi neque repellat quod
+                            reprehenderit harum provident, corporis voluptates
+
+                            ex? Sit.</p>
+                    </div>
+                    <img src="Images\user3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <div id="contact" data-aos="flip-right" data-aos-duration="1000">
+        <h1 class="heading text-center">Feel Free <span class="text-primary">to Connect</span> </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Footer -->
+                    <footer class="page-footer font-small mdb-color bg-dark lighten-3 pt-4 text-white">
+
+                        <!-- Footer Links -->
+                        <div class="container text-center text-md-left">
+
+                            <!-- Grid row -->
+                            <div class="row">
+
+                                <!-- Grid column -->
+                                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                                    <!-- Content -->
+                                    <h5 class="font-weight-bold text-uppercase mb-4">mSPICY</h5>
+                                    <p>Here you can use rows and columns to organize your footer content.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure
+                                        provident voluptate
+                                        esse
+                                        quasi, veritatis totam voluptas nostrum.</p>
+
+                                </div>
+                                <!-- Grid column -->
+
+                                <hr class="clearfix w-100 d-md-none">
+
+                                <!-- Grid column -->
+                                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                                    <!-- Links -->
+                                    <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <p>
+                                                <a href="#!">PROJECTS</a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="#!">ABOUT US</a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="#!">BLOG</a>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <a href="#!">AWARDS</a>
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <!-- Grid column -->
+
+                                <hr class="clearfix w-100 d-md-none">
+
+                                <!-- Grid column -->
+                                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                                    <!-- Contact details -->
+                                    <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <p>
+                                                <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i class="fas fa-envelope mr-3"></i> info@example.com
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i class="fas fa-print mr-3"></i> + 01 234 567 89
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <!-- Grid column -->
+
+                                <hr class="clearfix w-100 d-md-none">
+
+                                <!-- Grid column -->
+                                <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                                    <!-- Social buttons -->
+                                    <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+                                    <!-- Facebook -->
+                                    <a type="button" class="btn-floating btn-fb">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <!-- Twitter -->
+                                    <a type="button" class="btn-floating btn-tw">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <!-- Google +-->
+                                    <a type="button" class="btn-floating btn-gplus">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                    <!-- Dribbble -->
+                                    <a type="button" class="btn-floating btn-dribbble">
+                                        <i class="fab fa-dribbble"></i>
+                                    </a>
+
+                                </div>
+                                <!-- Grid column -->
+
+                            </div>
+                            <!-- Grid row -->
+
+                        </div>
+                        <!-- Footer Links -->
+
+                        <!-- Copyright -->
+                        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                            <a href="https://techplotlib.com/"> mSpicy.com</a>
+                        </div>
+                        <!-- Copyright -->
+
+                    </footer>
+                    <!-- Footer -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    </section>
